@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChessBoardController">
+   <children>
+      <HBox prefHeight="155.0" prefWidth="602.0">
+         <children>
+            <ImageView fitHeight="164.0" fitWidth="150.0" onMouseClicked="#select_from_pawn_role_panel" pickOnBounds="true" preserveRatio="true" styleClass="queen">
+               <image>
+                  <Image url="@whitePieces/queen.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="164.0" fitWidth="150.0" layoutX="10.0" layoutY="10.0" onMouseClicked="#select_from_pawn_role_panel" pickOnBounds="true" preserveRatio="true" styleClass="bishop">
+               <image>
+                  <Image url="@whitePieces/bishop.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="164.0" fitWidth="150.0" layoutX="160.0" layoutY="10.0" onMouseClicked="#select_from_pawn_role_panel" pickOnBounds="true" preserveRatio="true" styleClass="knight">
+               <image>
+                  <Image url="@whitePieces/knight.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="164.0" fitWidth="150.0" layoutX="311.0" layoutY="10.0" onMouseClicked="#select_from_pawn_role_panel" pickOnBounds="true" preserveRatio="true" styleClass="rook">
+               <image>
+                  <Image url="@whitePieces/rook.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

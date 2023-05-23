@@ -1,0 +1,14 @@
+.selected {
+    -fx-border-color: orange ;
+    -fx-border-width: 3 ; 
+    -fx-border-insets: -3px;
+}
+
+.valid_move {
+    /* -fx-opacity: 1 !important; */
+    -fx-background-color: rgb(91, 0, 0) !important;
+}
+
+.checkmate {
+    -fx-background-color: red !important;
+}
